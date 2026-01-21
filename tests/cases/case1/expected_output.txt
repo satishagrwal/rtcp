@@ -1,0 +1,6 @@
+permit 48kbps from 240b:c0e0:104:4819::1001 49120 to 2001:0:0:1::11 1234
+permit 800bps from 240b:c0e0:104:4819::1001 49121 to 2001:0:0:1::11 1235
+permit 32kbps from 2001:0:0:1::11 1234 to 240b:c0e0:104:4819::1001 49120
+permit 3200bps from 2001:0:0:1::11 1235 to 240b:c0e0:104:4819::1001 49121
+Total uplink from 240b:c0e0:104:4819::1001 ---> 48.8 kbps
+Total uplink from 2001:0:0:1::11 ---> 35.2 kbps

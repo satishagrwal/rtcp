@@ -1,0 +1,11 @@
+v=0
+o=case5-answer 0 0 IN IP6 2001:0:0:1::11
+s=case5
+c=IN IP6 2001:0:0:1::11
+b=AS:16
+b=RS:400
+b=RR:1200
+t=0 0
+
+m=audio 1234 RTP/AVP 97
+a=rtpmap:97 AMR/8000

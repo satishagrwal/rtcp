@@ -1,0 +1,17 @@
+v=0
+o=ng-ims-test 1640275820 1640275820 IN IP4 10.46.0.3
+s=overide voip
+c=IN IP6 240b:c0e0:104:4819::1001
+b=AS:48
+b=RS:800
+b=RR:2000
+t=0 0
+
+m=audio 49120 RTP/AVP 104 107 97 100
+# no media-level c= here; should use session-level c=
+a=rtpmap:104 AMR-WB/16000
+a=rtpmap:107 AMR-WB/16000
+a=rtpmap:97 AMR/8000
+a=ptime:20
+a=sendrecv
+
